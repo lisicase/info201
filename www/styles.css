@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body {
+  background-color: #d8dae8;
+}
+
+.navbar-default {
+    background-color: #e3e4a4;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 40pt;
+}
+
+h4 {
+  font-weight: 900;
+}
+
+.col-sm-4 img {
+  width: 350px;
+}
