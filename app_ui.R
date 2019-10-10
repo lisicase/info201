@@ -93,7 +93,7 @@ years_input <- sliderInput(
 )
 
 # Find state names
-state_names <- unique(str_to_title(funding_data[ ,"State.Name"]))
+state_names <- unique(str_to_title(funding_data[, "State.Name"]))
 
 # Create dropdown menu to select feature of interest
 feature_input <- selectInput(
