@@ -4,6 +4,7 @@
 library(shiny)
 library(ggplot2)
 library(dplyr)
+library(stringr)
 
 # Page 1 - Introduction ----------------------------------------------
 
@@ -93,7 +94,7 @@ years_input <- sliderInput(
 )
 
 # Find state names
-state_names <- unique(str_to_title(funding_data[, "State.Name"]))
+state_names <- unique(str_to_title(funding_data[ ,"State.Name"]))
 
 # Create dropdown menu to select feature of interest
 feature_input <- selectInput(
@@ -108,7 +109,7 @@ interactive_viz <- tabPanel(
   "Funding Over Time",
   titlePanel("Funding Over Time"),
   p(em("Learn about how much revenue a state receives from federal, local, and
-    state sources over a period of time.")),
+       state sources over a period of time.")),
   sidebarLayout(
     sidebarPanel(
       years_input,
@@ -140,7 +141,7 @@ takeaway_content <- mainPanel(
     it’s clear that this was indeed very temporary. While federal funding has
     tended to increase at a relatively steady rate overall, for many states, it
     has also had a slight decline since around 2010.")
-)
+  )
 
 # Create a side panel of outlier plots.
 plots_panel <- sidebarPanel(

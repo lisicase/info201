@@ -5,6 +5,5 @@ library(shiny)
 source("app_ui.R")
 source("app_server.R")
 
-# To start running your app, pass the variables defined in previous
-# code snippets into the `shinyApp()` function
+# Run the App --------------------------------------------------------
 shinyApp(ui = my_ui, server = my_server)
