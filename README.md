@@ -1,5 +1,5 @@
 ### info201 data-tamers
-### Shinyapp.io link: 
+### Shinyapp.io link: https://lisicase.shinyapps.io/info201/
 # **Domain of Interest: Education**
 ## Why are you interested in this field/domain?
 There are a lot of interesting questions to be asked about the education spending
