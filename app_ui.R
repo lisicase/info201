@@ -165,7 +165,7 @@ takeaways <- tabPanel(
 
 # Create the multi-page layout
 my_ui <- navbarPage(
-  "Final Deliverable", overview, interactive_viz, takeaways,
+  "School Funding", overview, interactive_viz, takeaways,
   tags$head(
     tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
   )
